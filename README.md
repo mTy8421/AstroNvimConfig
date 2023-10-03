@@ -14,6 +14,9 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 #### Clone AstroNvim
 
 ```shell
+rm ~/.config/nvim
+rm ~/.local/share/nvim
+rm ~/.cache/nvim
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 ```
 
